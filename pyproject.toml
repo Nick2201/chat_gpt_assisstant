@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "chatgpt-assistant"
+version = "0.1.0"
+description = ""
+authors = ["Nick <nicklisits@gmail.com>"]
+readme = "README.md"
+packages = [{include = "chatgpt_assistant"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^0.27.0"
+gradio = "^3.20.1"
+tkcolorpicker = "^2.1.3"
+customtkinter = "^5.1.2"
+sqlalchemy = "^2.0.5.post1"
+psycopg2 = "^2.9.5"
+streamlit = "^1.20.0"
+streamlit-chat = "^0.0.2.2"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
